@@ -1,9 +1,9 @@
 import React from 'react'
-import classess from './Card.module.css'
+import classes from './Card.module.css'
 
 const Card = (props) => {
     return (
-        <div className={classess.card}>
+        <div className={classes.card}>
             {props.children}
         </div>
     )
